@@ -1,0 +1,82 @@
+body{
+    background: #232323;
+    padding: 0;
+    margin: 0;
+}
+.square{
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    margin:1.6%;
+    border-radius: 10px;
+}
+.wrap{
+    text-align: center;
+    padding: 20px;
+    background: steelblue;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    /* margin: 0 auto; */
+    justify-self: center;
+    /* left: 400px;
+    position: absolute; */
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.message{
+    color:white;
+    justify-content: center;
+    font-size: 30px;
+    justify-self: center;
+}
+.colordisplay{
+    color:white;
+}
+.menuContainer{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+#Reset-Btn{
+    height: 100%;
+    font-weight: 700;
+    outline: 0;
+    outline-color: 0;
+    border-color: white;
+    font-size: 15px;
+    color: steelblue;
+    border:  white solid 1px;
+    transition: 1s;
+    border-radius: 5px;
+}
+#Reset-Btn:hover{
+    background-color: steelblue;
+    color: white;
+}
+.selection{
+    height: 100%;
+    font-weight: 700;
+    outline: 0;
+    outline-color: 0;
+    border-color: white;
+    font-size: 15px;
+    color: steelblue;
+    border:  white solid 1px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.selection:hover{
+    background-color: steelblue;
+    color: white;
+}
